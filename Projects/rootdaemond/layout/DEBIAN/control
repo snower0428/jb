@@ -1,0 +1,11 @@
+Package: com.iosre.rootdaemond
+Name: rootdaemond
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: leihui
+Author: leihui
+Section: System
+Tag: role::hacker
+Version: 0.0.1-9
+Installed-Size: 52

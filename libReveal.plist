@@ -1,0 +1,12 @@
+{
+	Filter = {
+		Bundles = (
+			"com.meitu.mtxx",
+			"com.tencent.info",
+			"com.ileadsoft.flappyBird",
+			"com.olimsoft.oplayer.lite",
+			"com.apple.springboard",
+			"com.91.zm.91Home",
+		);
+	};
+}

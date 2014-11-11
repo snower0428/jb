@@ -1,0 +1,10 @@
+Package: com.lh.rootapp
+Name: RootApp
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: leihui
+Author: leihui
+Section: Utilities
+Version: 0.0.1-8
+Installed-Size: 204
