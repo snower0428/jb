@@ -1,0 +1,9 @@
+Package: com.lh.saveinstagramphoto
+Name: SaveInstagramPhoto
+Depends: mobilesubstrate, firmware (>= 6.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: leihui
+Author: leihui
+Section: Tweaks
