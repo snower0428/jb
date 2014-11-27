@@ -7,6 +7,156 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		795AEB151A272C3500E4A924 /* ABNewPersonViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABNewPersonViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB161A272C3500E4A924 /* ABPeoplePickerNavigationControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABPeoplePickerNavigationControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB171A272C3500E4A924 /* ABPeoplePickerNavigationControllerPrivateMemberCellDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABPeoplePickerNavigationControllerPrivateMemberCellDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB181A272C3500E4A924 /* ABUnknownPersonViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABUnknownPersonViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB191A272C3500E4A924 /* AVCaptureFileOutputRecordingDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVCaptureFileOutputRecordingDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB1A1A272C3500E4A924 /* CDStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		795AEB1B1A272C3500E4A924 /* CNFRegWizardControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CNFRegWizardControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB1C1A272C3500E4A924 /* CommunicationDisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunicationDisplayViewController.h; sourceTree = "<group>"; };
+		795AEB1D1A272C3500E4A924 /* ContactImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactImageCache.h; sourceTree = "<group>"; };
+		795AEB1E1A272C3500E4A924 /* DialerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialerController.h; sourceTree = "<group>"; };
+		795AEB1F1A272C3500E4A924 /* DialerLCDFieldDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DialerLCDFieldDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB201A272C3500E4A924 /* DialerLCDFieldProtocol-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DialerLCDFieldProtocol-Protocol.h"; sourceTree = "<group>"; };
+		795AEB211A272C3500E4A924 /* DialerViewDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DialerViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB221A272C3500E4A924 /* HKMedicalIDViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HKMedicalIDViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB231A272C3500E4A924 /* InCallLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InCallLCDView.h; sourceTree = "<group>"; };
+		795AEB241A272C3500E4A924 /* MobilePhoneApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePhoneApplication.h; sourceTree = "<group>"; };
+		795AEB251A272C3500E4A924 /* MPDetailSliderDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPDetailSliderDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB261A272C3500E4A924 /* NSError-VoicemailExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError-VoicemailExtras.h"; sourceTree = "<group>"; };
+		795AEB271A272C3500E4A924 /* NSObject-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		795AEB281A272C3500E4A924 /* PHAbstractDialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAbstractDialerView.h; sourceTree = "<group>"; };
+		795AEB291A272C3500E4A924 /* PHAddCallNumberPadButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAddCallNumberPadButton.h; sourceTree = "<group>"; };
+		795AEB2A1A272C3500E4A924 /* PHAddressBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAddressBookController.h; sourceTree = "<group>"; };
+		795AEB2B1A272C3500E4A924 /* PHAudioDeviceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAudioDeviceController.h; sourceTree = "<group>"; };
+		795AEB2C1A272C3500E4A924 /* PHAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAudioPlayer.h; sourceTree = "<group>"; };
+		795AEB2D1A272C3500E4A924 /* PHAudioPlayerDataSource-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAudioPlayerDataSource-Protocol.h"; sourceTree = "<group>"; };
+		795AEB2E1A272C3500E4A924 /* PHAudioPlayerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAudioPlayerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB2F1A272C3500E4A924 /* PHAudioPlayerVoicemailDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAudioPlayerVoicemailDataSource.h; sourceTree = "<group>"; };
+		795AEB301A272C3500E4A924 /* PHAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAudioRecorder.h; sourceTree = "<group>"; };
+		795AEB311A272C3500E4A924 /* PHAudioRecorderDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAudioRecorderDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB321A272C3500E4A924 /* PHAudioRoutingAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAudioRoutingAlertController.h; sourceTree = "<group>"; };
+		795AEB331A272C3500E4A924 /* PHCellContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHCellContentView.h; sourceTree = "<group>"; };
+		795AEB341A272C3500E4A924 /* PHEmergencyDialerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHEmergencyDialerViewController.h; sourceTree = "<group>"; };
+		795AEB351A272C3500E4A924 /* PHEmergencyHandsetDialerLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHEmergencyHandsetDialerLCDView.h; sourceTree = "<group>"; };
+		795AEB361A272C3500E4A924 /* PHEmergencyHandsetDialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHEmergencyHandsetDialerView.h; sourceTree = "<group>"; };
+		795AEB371A272C3500E4A924 /* PHFavoritesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFavoritesCell.h; sourceTree = "<group>"; };
+		795AEB381A272C3500E4A924 /* PHFavoritesEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFavoritesEntry.h; sourceTree = "<group>"; };
+		795AEB391A272C3500E4A924 /* PHFavoritesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFavoritesManager.h; sourceTree = "<group>"; };
+		795AEB3A1A272C3500E4A924 /* PHFavoritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFavoritesViewController.h; sourceTree = "<group>"; };
+		795AEB3B1A272C3500E4A924 /* PHHandsetDialerLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHHandsetDialerLCDView.h; sourceTree = "<group>"; };
+		795AEB3C1A272C3500E4A924 /* PHHandsetDialerNameLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHHandsetDialerNameLabelView.h; sourceTree = "<group>"; };
+		795AEB3D1A272C3500E4A924 /* PHHandsetDialerNumberPadButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHHandsetDialerNumberPadButton.h; sourceTree = "<group>"; };
+		795AEB3E1A272C3500E4A924 /* PHHandsetDialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHHandsetDialerView.h; sourceTree = "<group>"; };
+		795AEB3F1A272C3500E4A924 /* PHInCallRoundedRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHInCallRoundedRectView.h; sourceTree = "<group>"; };
+		795AEB401A272C3500E4A924 /* PHInCallUIUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHInCallUIUtilities.h; sourceTree = "<group>"; };
+		795AEB411A272C3500E4A924 /* PHInfoButtonMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHInfoButtonMaskView.h; sourceTree = "<group>"; };
+		795AEB421A272C3500E4A924 /* PHLocalVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHLocalVideoViewController.h; sourceTree = "<group>"; };
+		795AEB431A272C3500E4A924 /* PhoneApplication-Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneApplication-Private.h"; sourceTree = "<group>"; };
+		795AEB441A272C3500E4A924 /* PhoneApplication-Telephony.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneApplication-Telephony.h"; sourceTree = "<group>"; };
+		795AEB451A272C3500E4A924 /* PhoneApplication-VideoConference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneApplication-VideoConference.h"; sourceTree = "<group>"; };
+		795AEB461A272C3500E4A924 /* PhoneApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneApplication.h; sourceTree = "<group>"; };
+		795AEB471A272C3500E4A924 /* PhoneBadgeable-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneBadgeable-Protocol.h"; sourceTree = "<group>"; };
+		795AEB481A272C3500E4A924 /* PhoneBaseViewController-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneBaseViewController-Protocol.h"; sourceTree = "<group>"; };
+		795AEB491A272C3500E4A924 /* PhoneContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneContentView.h; sourceTree = "<group>"; };
+		795AEB4A1A272C3500E4A924 /* PhoneNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNavigationController.h; sourceTree = "<group>"; };
+		795AEB4B1A272C3500E4A924 /* PhoneRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneRootView.h; sourceTree = "<group>"; };
+		795AEB4C1A272C3500E4A924 /* PhoneRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneRootViewController.h; sourceTree = "<group>"; };
+		795AEB4D1A272C3500E4A924 /* PhoneTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneTabBarController.h; sourceTree = "<group>"; };
+		795AEB4E1A272C3500E4A924 /* PhoneTabViewController-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneTabViewController-Protocol.h"; sourceTree = "<group>"; };
+		795AEB4F1A272C3500E4A924 /* PhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
+		795AEB501A272C3500E4A924 /* PHRecentsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsCell.h; sourceTree = "<group>"; };
+		795AEB511A272C3500E4A924 /* PHRecentsFaceTimeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsFaceTimeHeaderView.h; sourceTree = "<group>"; };
+		795AEB521A272C3500E4A924 /* PHRecentsHeaderSummaryView-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHRecentsHeaderSummaryView-Protocol.h"; sourceTree = "<group>"; };
+		795AEB531A272C3500E4A924 /* PHRecentsHeaderView-SubclassingHooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHRecentsHeaderView-SubclassingHooks.h"; sourceTree = "<group>"; };
+		795AEB541A272C3500E4A924 /* PHRecentsHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsHeaderView.h; sourceTree = "<group>"; };
+		795AEB551A272C3500E4A924 /* PHRecentsMapItemHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsMapItemHeaderView.h; sourceTree = "<group>"; };
+		795AEB561A272C3500E4A924 /* PHRecentsMapItemHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsMapItemHeaderViewController.h; sourceTree = "<group>"; };
+		795AEB571A272C3500E4A924 /* PHRecentsPersonFaceTimeHeaderSummaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsPersonFaceTimeHeaderSummaryView.h; sourceTree = "<group>"; };
+		795AEB581A272C3500E4A924 /* PHRecentsPhoneHeaderSummaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsPhoneHeaderSummaryView.h; sourceTree = "<group>"; };
+		795AEB591A272C3500E4A924 /* PHRecentsPhoneHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsPhoneHeaderView.h; sourceTree = "<group>"; };
+		795AEB5A1A272C3500E4A924 /* PHRecentsSharedMapNameCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsSharedMapNameCache.h; sourceTree = "<group>"; };
+		795AEB5B1A272C3500E4A924 /* PHRecentsToggleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsToggleButton.h; sourceTree = "<group>"; };
+		795AEB5C1A272C3500E4A924 /* PHRecentsViewController-TestingAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHRecentsViewController-TestingAdditions.h"; sourceTree = "<group>"; };
+		795AEB5D1A272C3500E4A924 /* PHRecentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHRecentsViewController.h; sourceTree = "<group>"; };
+		795AEB5E1A272C3500E4A924 /* PHStarkDialerCircleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkDialerCircleButton.h; sourceTree = "<group>"; };
+		795AEB5F1A272C3500E4A924 /* PHStarkDialerLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkDialerLCDView.h; sourceTree = "<group>"; };
+		795AEB601A272C3500E4A924 /* PHStarkDialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkDialerView.h; sourceTree = "<group>"; };
+		795AEB611A272C3500E4A924 /* PHStarkDialerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkDialerViewController.h; sourceTree = "<group>"; };
+		795AEB621A272C3500E4A924 /* PHStarkFavoritesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkFavoritesTableViewCell.h; sourceTree = "<group>"; };
+		795AEB631A272C3500E4A924 /* PHStarkFavoritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkFavoritesViewController.h; sourceTree = "<group>"; };
+		795AEB641A272C3500E4A924 /* PHStarkGenericTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkGenericTableViewCell.h; sourceTree = "<group>"; };
+		795AEB651A272C3500E4A924 /* PHStarkGenericTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkGenericTableViewController.h; sourceTree = "<group>"; };
+		795AEB661A272C3500E4A924 /* PHStarkGenericViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkGenericViewController.h; sourceTree = "<group>"; };
+		795AEB671A272C3500E4A924 /* PHStarkHardwareControlsBroadcaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkHardwareControlsBroadcaster.h; sourceTree = "<group>"; };
+		795AEB681A272C3500E4A924 /* PHStarkHardwareMenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkHardwareMenuTableViewCell.h; sourceTree = "<group>"; };
+		795AEB691A272C3500E4A924 /* PHStarkInCallDialerLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkInCallDialerLCDView.h; sourceTree = "<group>"; };
+		795AEB6A1A272C3500E4A924 /* PHStarkInCallDialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkInCallDialerView.h; sourceTree = "<group>"; };
+		795AEB6B1A272C3500E4A924 /* PHStarkInCallKeypadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkInCallKeypadViewController.h; sourceTree = "<group>"; };
+		795AEB6C1A272C3500E4A924 /* PHStarkInCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkInCallViewController.h; sourceTree = "<group>"; };
+		795AEB6D1A272C3500E4A924 /* PHStarkMainMenuContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkMainMenuContainerViewController.h; sourceTree = "<group>"; };
+		795AEB6E1A272C3500E4A924 /* PHStarkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkManager.h; sourceTree = "<group>"; };
+		795AEB6F1A272C3500E4A924 /* PHStarkNoContentBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkNoContentBannerView.h; sourceTree = "<group>"; };
+		795AEB701A272C3500E4A924 /* PHStarkProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkProgressView.h; sourceTree = "<group>"; };
+		795AEB711A272C3500E4A924 /* PHStarkRecentsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkRecentsTableViewCell.h; sourceTree = "<group>"; };
+		795AEB721A272C3500E4A924 /* PHStarkRecentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkRecentsViewController.h; sourceTree = "<group>"; };
+		795AEB731A272C3500E4A924 /* PHStarkRootContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkRootContainerViewController.h; sourceTree = "<group>"; };
+		795AEB741A272C3500E4A924 /* PHStarkTelephonyStateMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkTelephonyStateMonitor.h; sourceTree = "<group>"; };
+		795AEB751A272C3500E4A924 /* PHStarkTelephonyStateMonitorDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHStarkTelephonyStateMonitorDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB761A272C3500E4A924 /* PHStarkVoicemailManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkVoicemailManager.h; sourceTree = "<group>"; };
+		795AEB771A272C3500E4A924 /* PHStarkVoicemailPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkVoicemailPlayerViewController.h; sourceTree = "<group>"; };
+		795AEB781A272C3500E4A924 /* PHStarkVoicemailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkVoicemailTableViewCell.h; sourceTree = "<group>"; };
+		795AEB791A272C3500E4A924 /* PHStarkVoicemailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStarkVoicemailViewController.h; sourceTree = "<group>"; };
+		795AEB7A1A272C3500E4A924 /* PHStaticDialerPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStaticDialerPad.h; sourceTree = "<group>"; };
+		795AEB7B1A272C3500E4A924 /* PHStatusBarGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHStatusBarGradientView.h; sourceTree = "<group>"; };
+		795AEB7C1A272C3500E4A924 /* PHTextCycleLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHTextCycleLabel.h; sourceTree = "<group>"; };
+		795AEB7D1A272C3500E4A924 /* PHUIConfiguration-DialerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHUIConfiguration-DialerView.h"; sourceTree = "<group>"; };
+		795AEB7E1A272C3500E4A924 /* PHUIConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHUIConfiguration.h; sourceTree = "<group>"; };
+		795AEB7F1A272C3500E4A924 /* PHVoicemailAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailAudioController.h; sourceTree = "<group>"; };
+		795AEB801A272C3500E4A924 /* PHVoicemailBlockedListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailBlockedListViewController.h; sourceTree = "<group>"; };
+		795AEB811A272C3500E4A924 /* PHVoicemailCell-Accessibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailCell-Accessibility.h"; sourceTree = "<group>"; };
+		795AEB821A272C3500E4A924 /* PHVoicemailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailCell.h; sourceTree = "<group>"; };
+		795AEB831A272C3500E4A924 /* PHVoicemailCellConfigurationDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailCellConfigurationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB841A272C3500E4A924 /* PHVoicemailCellDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailCellDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB851A272C3500E4A924 /* PHVoicemailFolderCell-Accessibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailFolderCell-Accessibility.h"; sourceTree = "<group>"; };
+		795AEB861A272C3500E4A924 /* PHVoicemailFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailFolderCell.h; sourceTree = "<group>"; };
+		795AEB871A272C3500E4A924 /* PHVoicemailGreetingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailGreetingCell.h; sourceTree = "<group>"; };
+		795AEB881A272C3500E4A924 /* PHVoicemailGreetingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailGreetingViewController.h; sourceTree = "<group>"; };
+		795AEB891A272C3500E4A924 /* PHVoicemailGreetingViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailGreetingViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB8A1A272C3500E4A924 /* PHVoicemailInboxListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailInboxListViewController.h; sourceTree = "<group>"; };
+		795AEB8B1A272C3500E4A924 /* PHVoicemailListMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailListMaskView.h; sourceTree = "<group>"; };
+		795AEB8C1A272C3500E4A924 /* PHVoicemailListMaskViewDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailListMaskViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB8D1A272C3500E4A924 /* PHVoicemailListViewController-TestingAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailListViewController-TestingAdditions.h"; sourceTree = "<group>"; };
+		795AEB8E1A272C3500E4A924 /* PHVoicemailListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailListViewController.h; sourceTree = "<group>"; };
+		795AEB8F1A272C3500E4A924 /* PHVoicemailListViewControllerConcrete-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailListViewControllerConcrete-Protocol.h"; sourceTree = "<group>"; };
+		795AEB901A272C3500E4A924 /* PHVoicemailNavigationController-Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHVoicemailNavigationController-Internal.h"; sourceTree = "<group>"; };
+		795AEB911A272C3500E4A924 /* PHVoicemailNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailNavigationController.h; sourceTree = "<group>"; };
+		795AEB921A272C3500E4A924 /* PHVoicemailNoContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailNoContentViewController.h; sourceTree = "<group>"; };
+		795AEB931A272C3500E4A924 /* PHVoicemailSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailSetupViewController.h; sourceTree = "<group>"; };
+		795AEB941A272C3500E4A924 /* PHVoicemailSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailSlider.h; sourceTree = "<group>"; };
+		795AEB951A272C3500E4A924 /* PHVoicemailTrashListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailTrashListViewController.h; sourceTree = "<group>"; };
+		795AEB961A272C3500E4A924 /* PHVoicemailUnavailableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVoicemailUnavailableCell.h; sourceTree = "<group>"; };
+		795AEB971A272C3500E4A924 /* RadiosPreferencesDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadiosPreferencesDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB981A272C3500E4A924 /* TPDialerKeypadDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPDialerKeypadDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB991A272C3500E4A924 /* TPSetPINViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPSetPINViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB9A1A272C3500E4A924 /* TPStarkInCallViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPStarkInCallViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB9B1A272C3500E4A924 /* UIActionSheetDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActionSheetDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB9C1A272C3500E4A924 /* UIApplicationDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplicationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEB9D1A272C3500E4A924 /* UIFont-MobilePhoneAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont-MobilePhoneAdditions.h"; sourceTree = "<group>"; };
+		795AEB9E1A272C3500E4A924 /* UIFont-UIFont_InCallLCDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont-UIFont_InCallLCDView.h"; sourceTree = "<group>"; };
+		795AEB9F1A272C3500E4A924 /* UIGestureRecognizerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA01A272C3500E4A924 /* UIImage-MobilePhoneAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage-MobilePhoneAdditions.h"; sourceTree = "<group>"; };
+		795AEBA11A272C3500E4A924 /* UINavigationControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA21A272C3500E4A924 /* UIScrollViewDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA31A272C3500E4A924 /* UITabBarControllerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA41A272C3500E4A924 /* UITableView-PHStarkExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView-PHStarkExtensions.h"; sourceTree = "<group>"; };
+		795AEBA51A272C3500E4A924 /* UITableViewCell-VoicemailCellAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell-VoicemailCellAdditions.h"; sourceTree = "<group>"; };
+		795AEBA61A272C3500E4A924 /* UITableViewDataSource-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewDataSource-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA71A272C3500E4A924 /* UITableViewDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		795AEBA81A272C3500E4A924 /* UIView-PHInCallUIUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView-PHInCallUIUtilities.h"; sourceTree = "<group>"; };
+		795AEBA91A272C3500E4A924 /* UIViewController-Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Testing.h"; sourceTree = "<group>"; };
+		795AEBAA1A272C3500E4A924 /* VMVoicemail-MobilePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMVoicemail-MobilePhone.h"; sourceTree = "<group>"; };
 		7981714B1A25B5E1002C31F2 /* _FBMAppBridgeScheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _FBMAppBridgeScheme.h; sourceTree = "<group>"; };
 		7981714C1A25B5E1002C31F2 /* _SRRunLoopThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _SRRunLoopThread.h; sourceTree = "<group>"; };
 		7981714D1A25B5E1002C31F2 /* AFCompoundResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompoundResponseSerializer.h; sourceTree = "<group>"; };
@@ -1881,9 +2031,168 @@
 		794767EA19A3411000251844 = {
 			isa = PBXGroup;
 			children = (
+				795AEB141A272C3500E4A924 /* MobilePhone.h */,
 				7981714A1A25B5E1002C31F2 /* instagram.h */,
 				79C3663519A742580031F452 /* SpringBoard.h */,
 			);
+			sourceTree = "<group>";
+		};
+		795AEB141A272C3500E4A924 /* MobilePhone.h */ = {
+			isa = PBXGroup;
+			children = (
+				795AEB151A272C3500E4A924 /* ABNewPersonViewControllerDelegate-Protocol.h */,
+				795AEB161A272C3500E4A924 /* ABPeoplePickerNavigationControllerDelegate-Protocol.h */,
+				795AEB171A272C3500E4A924 /* ABPeoplePickerNavigationControllerPrivateMemberCellDelegate-Protocol.h */,
+				795AEB181A272C3500E4A924 /* ABUnknownPersonViewControllerDelegate-Protocol.h */,
+				795AEB191A272C3500E4A924 /* AVCaptureFileOutputRecordingDelegate-Protocol.h */,
+				795AEB1A1A272C3500E4A924 /* CDStructures.h */,
+				795AEB1B1A272C3500E4A924 /* CNFRegWizardControllerDelegate-Protocol.h */,
+				795AEB1C1A272C3500E4A924 /* CommunicationDisplayViewController.h */,
+				795AEB1D1A272C3500E4A924 /* ContactImageCache.h */,
+				795AEB1E1A272C3500E4A924 /* DialerController.h */,
+				795AEB1F1A272C3500E4A924 /* DialerLCDFieldDelegate-Protocol.h */,
+				795AEB201A272C3500E4A924 /* DialerLCDFieldProtocol-Protocol.h */,
+				795AEB211A272C3500E4A924 /* DialerViewDelegate-Protocol.h */,
+				795AEB221A272C3500E4A924 /* HKMedicalIDViewControllerDelegate-Protocol.h */,
+				795AEB231A272C3500E4A924 /* InCallLCDView.h */,
+				795AEB241A272C3500E4A924 /* MobilePhoneApplication.h */,
+				795AEB251A272C3500E4A924 /* MPDetailSliderDelegate-Protocol.h */,
+				795AEB261A272C3500E4A924 /* NSError-VoicemailExtras.h */,
+				795AEB271A272C3500E4A924 /* NSObject-Protocol.h */,
+				795AEB281A272C3500E4A924 /* PHAbstractDialerView.h */,
+				795AEB291A272C3500E4A924 /* PHAddCallNumberPadButton.h */,
+				795AEB2A1A272C3500E4A924 /* PHAddressBookController.h */,
+				795AEB2B1A272C3500E4A924 /* PHAudioDeviceController.h */,
+				795AEB2C1A272C3500E4A924 /* PHAudioPlayer.h */,
+				795AEB2D1A272C3500E4A924 /* PHAudioPlayerDataSource-Protocol.h */,
+				795AEB2E1A272C3500E4A924 /* PHAudioPlayerDelegate-Protocol.h */,
+				795AEB2F1A272C3500E4A924 /* PHAudioPlayerVoicemailDataSource.h */,
+				795AEB301A272C3500E4A924 /* PHAudioRecorder.h */,
+				795AEB311A272C3500E4A924 /* PHAudioRecorderDelegate-Protocol.h */,
+				795AEB321A272C3500E4A924 /* PHAudioRoutingAlertController.h */,
+				795AEB331A272C3500E4A924 /* PHCellContentView.h */,
+				795AEB341A272C3500E4A924 /* PHEmergencyDialerViewController.h */,
+				795AEB351A272C3500E4A924 /* PHEmergencyHandsetDialerLCDView.h */,
+				795AEB361A272C3500E4A924 /* PHEmergencyHandsetDialerView.h */,
+				795AEB371A272C3500E4A924 /* PHFavoritesCell.h */,
+				795AEB381A272C3500E4A924 /* PHFavoritesEntry.h */,
+				795AEB391A272C3500E4A924 /* PHFavoritesManager.h */,
+				795AEB3A1A272C3500E4A924 /* PHFavoritesViewController.h */,
+				795AEB3B1A272C3500E4A924 /* PHHandsetDialerLCDView.h */,
+				795AEB3C1A272C3500E4A924 /* PHHandsetDialerNameLabelView.h */,
+				795AEB3D1A272C3500E4A924 /* PHHandsetDialerNumberPadButton.h */,
+				795AEB3E1A272C3500E4A924 /* PHHandsetDialerView.h */,
+				795AEB3F1A272C3500E4A924 /* PHInCallRoundedRectView.h */,
+				795AEB401A272C3500E4A924 /* PHInCallUIUtilities.h */,
+				795AEB411A272C3500E4A924 /* PHInfoButtonMaskView.h */,
+				795AEB421A272C3500E4A924 /* PHLocalVideoViewController.h */,
+				795AEB431A272C3500E4A924 /* PhoneApplication-Private.h */,
+				795AEB441A272C3500E4A924 /* PhoneApplication-Telephony.h */,
+				795AEB451A272C3500E4A924 /* PhoneApplication-VideoConference.h */,
+				795AEB461A272C3500E4A924 /* PhoneApplication.h */,
+				795AEB471A272C3500E4A924 /* PhoneBadgeable-Protocol.h */,
+				795AEB481A272C3500E4A924 /* PhoneBaseViewController-Protocol.h */,
+				795AEB491A272C3500E4A924 /* PhoneContentView.h */,
+				795AEB4A1A272C3500E4A924 /* PhoneNavigationController.h */,
+				795AEB4B1A272C3500E4A924 /* PhoneRootView.h */,
+				795AEB4C1A272C3500E4A924 /* PhoneRootViewController.h */,
+				795AEB4D1A272C3500E4A924 /* PhoneTabBarController.h */,
+				795AEB4E1A272C3500E4A924 /* PhoneTabViewController-Protocol.h */,
+				795AEB4F1A272C3500E4A924 /* PhoneViewController.h */,
+				795AEB501A272C3500E4A924 /* PHRecentsCell.h */,
+				795AEB511A272C3500E4A924 /* PHRecentsFaceTimeHeaderView.h */,
+				795AEB521A272C3500E4A924 /* PHRecentsHeaderSummaryView-Protocol.h */,
+				795AEB531A272C3500E4A924 /* PHRecentsHeaderView-SubclassingHooks.h */,
+				795AEB541A272C3500E4A924 /* PHRecentsHeaderView.h */,
+				795AEB551A272C3500E4A924 /* PHRecentsMapItemHeaderView.h */,
+				795AEB561A272C3500E4A924 /* PHRecentsMapItemHeaderViewController.h */,
+				795AEB571A272C3500E4A924 /* PHRecentsPersonFaceTimeHeaderSummaryView.h */,
+				795AEB581A272C3500E4A924 /* PHRecentsPhoneHeaderSummaryView.h */,
+				795AEB591A272C3500E4A924 /* PHRecentsPhoneHeaderView.h */,
+				795AEB5A1A272C3500E4A924 /* PHRecentsSharedMapNameCache.h */,
+				795AEB5B1A272C3500E4A924 /* PHRecentsToggleButton.h */,
+				795AEB5C1A272C3500E4A924 /* PHRecentsViewController-TestingAdditions.h */,
+				795AEB5D1A272C3500E4A924 /* PHRecentsViewController.h */,
+				795AEB5E1A272C3500E4A924 /* PHStarkDialerCircleButton.h */,
+				795AEB5F1A272C3500E4A924 /* PHStarkDialerLCDView.h */,
+				795AEB601A272C3500E4A924 /* PHStarkDialerView.h */,
+				795AEB611A272C3500E4A924 /* PHStarkDialerViewController.h */,
+				795AEB621A272C3500E4A924 /* PHStarkFavoritesTableViewCell.h */,
+				795AEB631A272C3500E4A924 /* PHStarkFavoritesViewController.h */,
+				795AEB641A272C3500E4A924 /* PHStarkGenericTableViewCell.h */,
+				795AEB651A272C3500E4A924 /* PHStarkGenericTableViewController.h */,
+				795AEB661A272C3500E4A924 /* PHStarkGenericViewController.h */,
+				795AEB671A272C3500E4A924 /* PHStarkHardwareControlsBroadcaster.h */,
+				795AEB681A272C3500E4A924 /* PHStarkHardwareMenuTableViewCell.h */,
+				795AEB691A272C3500E4A924 /* PHStarkInCallDialerLCDView.h */,
+				795AEB6A1A272C3500E4A924 /* PHStarkInCallDialerView.h */,
+				795AEB6B1A272C3500E4A924 /* PHStarkInCallKeypadViewController.h */,
+				795AEB6C1A272C3500E4A924 /* PHStarkInCallViewController.h */,
+				795AEB6D1A272C3500E4A924 /* PHStarkMainMenuContainerViewController.h */,
+				795AEB6E1A272C3500E4A924 /* PHStarkManager.h */,
+				795AEB6F1A272C3500E4A924 /* PHStarkNoContentBannerView.h */,
+				795AEB701A272C3500E4A924 /* PHStarkProgressView.h */,
+				795AEB711A272C3500E4A924 /* PHStarkRecentsTableViewCell.h */,
+				795AEB721A272C3500E4A924 /* PHStarkRecentsViewController.h */,
+				795AEB731A272C3500E4A924 /* PHStarkRootContainerViewController.h */,
+				795AEB741A272C3500E4A924 /* PHStarkTelephonyStateMonitor.h */,
+				795AEB751A272C3500E4A924 /* PHStarkTelephonyStateMonitorDelegate-Protocol.h */,
+				795AEB761A272C3500E4A924 /* PHStarkVoicemailManager.h */,
+				795AEB771A272C3500E4A924 /* PHStarkVoicemailPlayerViewController.h */,
+				795AEB781A272C3500E4A924 /* PHStarkVoicemailTableViewCell.h */,
+				795AEB791A272C3500E4A924 /* PHStarkVoicemailViewController.h */,
+				795AEB7A1A272C3500E4A924 /* PHStaticDialerPad.h */,
+				795AEB7B1A272C3500E4A924 /* PHStatusBarGradientView.h */,
+				795AEB7C1A272C3500E4A924 /* PHTextCycleLabel.h */,
+				795AEB7D1A272C3500E4A924 /* PHUIConfiguration-DialerView.h */,
+				795AEB7E1A272C3500E4A924 /* PHUIConfiguration.h */,
+				795AEB7F1A272C3500E4A924 /* PHVoicemailAudioController.h */,
+				795AEB801A272C3500E4A924 /* PHVoicemailBlockedListViewController.h */,
+				795AEB811A272C3500E4A924 /* PHVoicemailCell-Accessibility.h */,
+				795AEB821A272C3500E4A924 /* PHVoicemailCell.h */,
+				795AEB831A272C3500E4A924 /* PHVoicemailCellConfigurationDelegate-Protocol.h */,
+				795AEB841A272C3500E4A924 /* PHVoicemailCellDelegate-Protocol.h */,
+				795AEB851A272C3500E4A924 /* PHVoicemailFolderCell-Accessibility.h */,
+				795AEB861A272C3500E4A924 /* PHVoicemailFolderCell.h */,
+				795AEB871A272C3500E4A924 /* PHVoicemailGreetingCell.h */,
+				795AEB881A272C3500E4A924 /* PHVoicemailGreetingViewController.h */,
+				795AEB891A272C3500E4A924 /* PHVoicemailGreetingViewControllerDelegate-Protocol.h */,
+				795AEB8A1A272C3500E4A924 /* PHVoicemailInboxListViewController.h */,
+				795AEB8B1A272C3500E4A924 /* PHVoicemailListMaskView.h */,
+				795AEB8C1A272C3500E4A924 /* PHVoicemailListMaskViewDelegate-Protocol.h */,
+				795AEB8D1A272C3500E4A924 /* PHVoicemailListViewController-TestingAdditions.h */,
+				795AEB8E1A272C3500E4A924 /* PHVoicemailListViewController.h */,
+				795AEB8F1A272C3500E4A924 /* PHVoicemailListViewControllerConcrete-Protocol.h */,
+				795AEB901A272C3500E4A924 /* PHVoicemailNavigationController-Internal.h */,
+				795AEB911A272C3500E4A924 /* PHVoicemailNavigationController.h */,
+				795AEB921A272C3500E4A924 /* PHVoicemailNoContentViewController.h */,
+				795AEB931A272C3500E4A924 /* PHVoicemailSetupViewController.h */,
+				795AEB941A272C3500E4A924 /* PHVoicemailSlider.h */,
+				795AEB951A272C3500E4A924 /* PHVoicemailTrashListViewController.h */,
+				795AEB961A272C3500E4A924 /* PHVoicemailUnavailableCell.h */,
+				795AEB971A272C3500E4A924 /* RadiosPreferencesDelegate-Protocol.h */,
+				795AEB981A272C3500E4A924 /* TPDialerKeypadDelegate-Protocol.h */,
+				795AEB991A272C3500E4A924 /* TPSetPINViewControllerDelegate-Protocol.h */,
+				795AEB9A1A272C3500E4A924 /* TPStarkInCallViewControllerDelegate-Protocol.h */,
+				795AEB9B1A272C3500E4A924 /* UIActionSheetDelegate-Protocol.h */,
+				795AEB9C1A272C3500E4A924 /* UIApplicationDelegate-Protocol.h */,
+				795AEB9D1A272C3500E4A924 /* UIFont-MobilePhoneAdditions.h */,
+				795AEB9E1A272C3500E4A924 /* UIFont-UIFont_InCallLCDView.h */,
+				795AEB9F1A272C3500E4A924 /* UIGestureRecognizerDelegate-Protocol.h */,
+				795AEBA01A272C3500E4A924 /* UIImage-MobilePhoneAdditions.h */,
+				795AEBA11A272C3500E4A924 /* UINavigationControllerDelegate-Protocol.h */,
+				795AEBA21A272C3500E4A924 /* UIScrollViewDelegate-Protocol.h */,
+				795AEBA31A272C3500E4A924 /* UITabBarControllerDelegate-Protocol.h */,
+				795AEBA41A272C3500E4A924 /* UITableView-PHStarkExtensions.h */,
+				795AEBA51A272C3500E4A924 /* UITableViewCell-VoicemailCellAdditions.h */,
+				795AEBA61A272C3500E4A924 /* UITableViewDataSource-Protocol.h */,
+				795AEBA71A272C3500E4A924 /* UITableViewDelegate-Protocol.h */,
+				795AEBA81A272C3500E4A924 /* UIView-PHInCallUIUtilities.h */,
+				795AEBA91A272C3500E4A924 /* UIViewController-Testing.h */,
+				795AEBAA1A272C3500E4A924 /* VMVoicemail-MobilePhone.h */,
+			);
+			name = MobilePhone.h;
+			path = ../MobilePhone.h;
 			sourceTree = "<group>";
 		};
 		7981714A1A25B5E1002C31F2 /* instagram.h */ = {

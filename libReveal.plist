@@ -2,6 +2,7 @@
 	Filter = {
 		Bundles = (
 			"com.burbn.instagram",
+			"com.apple.mobilephone",
 		);
 	};
 }
