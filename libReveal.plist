@@ -3,6 +3,7 @@
 		Bundles = (
 			"com.burbn.instagram",
 			"com.apple.mobilephone",
+			"com.olimsoft.oplayer.lite",
 		);
 	};
 }

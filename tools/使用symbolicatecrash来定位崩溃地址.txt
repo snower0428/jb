@@ -1,0 +1,18 @@
+============================================================
+
+symbolicatecrash位于以下目录：
+/Applications/Xcode.app/Contents/SharedFrameworks/DTDeviceKitBase.framework/Versions/A/Resources/symbolicatecrash
+
+先把symbolicatecrash拷贝出来放在一个目录里。
+
+打开Terminal, 先设置环境变量：
+export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer/
+
+然后，用symbolicatecrash来解析崩溃的地址，cd到 symbolicatecrash 所在的目录，使用以下命令：
+./symbolicatecrash 崩溃日志文件(xxx.ips等) xxx.app.dSYM
+例如：
+./symbolicatecrash 91Home_2014-11-28-164300_iPhone6.ips 91Home.app.dSYM
+
+============================================================
+
+
