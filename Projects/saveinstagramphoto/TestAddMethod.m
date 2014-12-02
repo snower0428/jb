@@ -14,8 +14,6 @@
 
 #import <objc/runtime.h>
 
-static UIImage *kImage = nil;
-
 @interface IGFeedItemPhotoCell : UIView
 {
 	IGFeedItemPhotoView *_photoView;
@@ -29,21 +27,19 @@ static UIImage *kImage = nil;
 
 + (void)addMethodForClass:(id)target
 {
-	Class cls = [target class];
-	
-	SEL sel = @selector(longPressed:);
-	Method method = class_getInstanceMethod(cls, sel);
-	IMP imp = method_getImplementation(method);
-	class_addMethod(cls, sel, imp, method_getTypeEncoding(method));
-	
-	sel = @selector(alertView:clickedButtonAtIndex:);
-	method = class_getInstanceMethod(cls, sel);
-	imp = method_getImplementation(method);
-	class_addMethod(cls, sel, imp, method_getTypeEncoding(method));
-	
-	if (kImage == nil) {
-		kImage = [[[target photoView] photoImageView] photoImageView].image;
-	}
+	Class cls = [self class];
+    {
+        SEL sel = @selector(longPressed:);
+        Method method = class_getInstanceMethod(cls, sel);
+        IMP imp = method_getImplementation(method);
+        class_addMethod([target class], sel, imp, method_getTypeEncoding(method));
+    }
+    {
+        SEL sel = @selector(alertView:clickedButtonAtIndex:);
+        Method method = class_getInstanceMethod(cls, sel);
+        IMP imp = method_getImplementation(method);
+        class_addMethod([target class], sel, imp, method_getTypeEncoding(method));
+    }
 }
 
 - (void)longPressed:(id)sender
@@ -59,9 +55,11 @@ static UIImage *kImage = nil;
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
 	if (buttonIndex == 1) {
-		if (kImage != nil) {
-			UIImageWriteToSavedPhotosAlbum(kImage,nil, nil, nil);
-		}
+        if ([NSStringFromClass([self class]) isEqualToString:@"IGFeedItemPhotoCell"]) {
+            IGFeedItemPhotoCell *cell = (IGFeedItemPhotoCell *)self;
+            UIImage *image = [[[cell photoView] photoImageView] photoImageView].image;
+            UIImageWriteToSavedPhotosAlbum(image,nil, nil, nil);
+        }
 	}
 }
 
