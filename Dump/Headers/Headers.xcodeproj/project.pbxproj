@@ -7,6 +7,179 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		793160011A3199B400B628D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		793160021A3199B400B628D9 /* ApplicationPatchingDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationPatchingDetailsVC.h; sourceTree = "<group>"; };
+		793160031A3199B400B628D9 /* ApplicationPatchingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationPatchingVC.h; sourceTree = "<group>"; };
+		793160041A3199B400B628D9 /* BrokenCryptographyDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenCryptographyDetailsVC.h; sourceTree = "<group>"; };
+		793160051A3199B400B628D9 /* BrokenCryptographyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenCryptographyVC.h; sourceTree = "<group>"; };
+		793160061A3199B400B628D9 /* ClientSideInjectionDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientSideInjectionDetailsVC.h; sourceTree = "<group>"; };
+		793160071A3199B400B628D9 /* ClientSideInjectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientSideInjectionVC.h; sourceTree = "<group>"; };
+		793160081A3199B400B628D9 /* CLLocationManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLLocationManagerDelegate.h; sourceTree = "<group>"; };
+		793160091A3199B400B628D9 /* DamnVulnerableAppUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DamnVulnerableAppUtilities.h; sourceTree = "<group>"; };
+		7931600A1A3199B400B628D9 /* DamnVulnerableIOSApp-Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DamnVulnerableIOSApp-Structs.h"; sourceTree = "<group>"; };
+		7931600B1A3199B400B628D9 /* DamnVulnerableIOSApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DamnVulnerableIOSApp.h; sourceTree = "<group>"; };
+		7931600C1A3199B400B628D9 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		7931600D1A3199B400B628D9 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		7931600E1A3199B400B628D9 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		7931600F1A3199B400B628D9 /* ECSlidingSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		793160101A3199B400B628D9 /* ECSlidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		793160111A3199B400B628D9 /* FBAppCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppCall.h; sourceTree = "<group>"; };
+		793160121A3199B400B628D9 /* FBRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		793160131A3199B400B628D9 /* FBSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		793160141A3199B400B628D9 /* FBSessionTokenCaching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCaching.h; sourceTree = "<group>"; };
+		793160151A3199B400B628D9 /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		793160161A3199B400B628D9 /* GenericWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericWebViewVC.h; sourceTree = "<group>"; };
+		793160171A3199B400B628D9 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		793160181A3199B400B628D9 /* InsecureDataStorageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsecureDataStorageVC.h; sourceTree = "<group>"; };
+		793160191A3199B400B628D9 /* InsecureDataStorageVulnVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsecureDataStorageVulnVC.h; sourceTree = "<group>"; };
+		7931601A1A3199B400B628D9 /* JailbreakDetectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakDetectionVC.h; sourceTree = "<group>"; };
+		7931601B1A3199B400B628D9 /* LearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
+		7931601C1A3199B400B628D9 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		7931601D1A3199B400B628D9 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		7931601E1A3199B400B628D9 /* NSCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCopying.h; sourceTree = "<group>"; };
+		7931601F1A3199B400B628D9 /* NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject.h; sourceTree = "<group>"; };
+		793160201A3199B400B628D9 /* NSStreamDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStreamDelegate.h; sourceTree = "<group>"; };
+		793160211A3199B400B628D9 /* NSURLConnectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDelegate.h; sourceTree = "<group>"; };
+		793160221A3199B400B628D9 /* Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
+		793160231A3199B400B628D9 /* PDKeychainBindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		793160241A3199B400B628D9 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		793160251A3199B400B628D9 /* PF_AFHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFHTTPClient.h; sourceTree = "<group>"; };
+		793160261A3199B400B628D9 /* PF_AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		793160271A3199B400B628D9 /* PF_AFJSONRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		793160281A3199B400B628D9 /* PF_AFMultipartFormData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFMultipartFormData.h; sourceTree = "<group>"; };
+		793160291A3199B400B628D9 /* PF_AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		7931602A1A3199B400B628D9 /* PF_AFQueryStringComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFQueryStringComponent.h; sourceTree = "<group>"; };
+		7931602B1A3199B400B628D9 /* PF_AFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		7931602C1A3199B400B628D9 /* PF_EGORefreshTableHeaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_EGORefreshTableHeaderDelegate.h; sourceTree = "<group>"; };
+		7931602D1A3199B400B628D9 /* PF_EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		7931602E1A3199B400B628D9 /* PF_MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_MBProgressHUD.h; sourceTree = "<group>"; };
+		7931602F1A3199B400B628D9 /* PF_MBRoundProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_MBRoundProgressView.h; sourceTree = "<group>"; };
+		793160301A3199B400B628D9 /* PF_Twitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PF_Twitter.h; sourceTree = "<group>"; };
+		793160311A3199B400B628D9 /* PFACL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFACL.h; sourceTree = "<group>"; };
+		793160321A3199B400B628D9 /* PFAddOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAddOperation.h; sourceTree = "<group>"; };
+		793160331A3199B400B628D9 /* PFAddUniqueOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAddUniqueOperation.h; sourceTree = "<group>"; };
+		793160341A3199B400B628D9 /* PFAlertInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAlertInputView.h; sourceTree = "<group>"; };
+		793160351A3199B400B628D9 /* PFAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAnalytics.h; sourceTree = "<group>"; };
+		793160361A3199B400B628D9 /* PFAnonymousAuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAnonymousAuthenticationProvider.h; sourceTree = "<group>"; };
+		793160371A3199B400B628D9 /* PFAnonymousUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAnonymousUtils.h; sourceTree = "<group>"; };
+		793160381A3199B400B628D9 /* PFAuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAuthenticationProvider.h; sourceTree = "<group>"; };
+		793160391A3199B400B628D9 /* PFBlockRetryer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFBlockRetryer.h; sourceTree = "<group>"; };
+		7931603A1A3199B400B628D9 /* PFCachedCommandRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCachedCommandRunner.h; sourceTree = "<group>"; };
+		7931603B1A3199B400B628D9 /* PFCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCloud.h; sourceTree = "<group>"; };
+		7931603C1A3199B400B628D9 /* PFCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCommand.h; sourceTree = "<group>"; };
+		7931603D1A3199B400B628D9 /* PFCommandCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCommandCache.h; sourceTree = "<group>"; };
+		7931603E1A3199B400B628D9 /* PFCommandCacheTestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCommandCacheTestHelper.h; sourceTree = "<group>"; };
+		7931603F1A3199B400B628D9 /* PFCommandResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCommandResult.h; sourceTree = "<group>"; };
+		793160401A3199B400B628D9 /* PFDeleteOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFDeleteOperation.h; sourceTree = "<group>"; };
+		793160411A3199B400B628D9 /* PFFacebookAuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFacebookAuthenticationProvider.h; sourceTree = "<group>"; };
+		793160421A3199B400B628D9 /* PFFacebookButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFacebookButton.h; sourceTree = "<group>"; };
+		793160431A3199B400B628D9 /* PFFacebookTokenCachingStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFacebookTokenCachingStrategy.h; sourceTree = "<group>"; };
+		793160441A3199B400B628D9 /* PFFacebookUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFacebookUtils.h; sourceTree = "<group>"; };
+		793160451A3199B400B628D9 /* PFFieldOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFieldOperation.h; sourceTree = "<group>"; };
+		793160461A3199B400B628D9 /* PFFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFile.h; sourceTree = "<group>"; };
+		793160471A3199B400B628D9 /* PFGeoPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFGeoPoint.h; sourceTree = "<group>"; };
+		793160481A3199B400B628D9 /* PFHTTPChunkedResponseBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPChunkedResponseBody.h; sourceTree = "<group>"; };
+		793160491A3199B400B628D9 /* PFHTTPCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPCommand.h; sourceTree = "<group>"; };
+		7931604A1A3199B400B628D9 /* PFHTTPCommandDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPCommandDelegate.h; sourceTree = "<group>"; };
+		7931604B1A3199B400B628D9 /* PFHTTPHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPHeaders.h; sourceTree = "<group>"; };
+		7931604C1A3199B400B628D9 /* PFHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPRequest.h; sourceTree = "<group>"; };
+		7931604D1A3199B400B628D9 /* PFHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPResponse.h; sourceTree = "<group>"; };
+		7931604E1A3199B400B628D9 /* PFHTTPResponseBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHTTPResponseBody.h; sourceTree = "<group>"; };
+		7931604F1A3199B400B628D9 /* PFImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFImageCache.h; sourceTree = "<group>"; };
+		793160501A3199B400B628D9 /* PFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFImageView.h; sourceTree = "<group>"; };
+		793160511A3199B400B628D9 /* PFIncrementOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFIncrementOperation.h; sourceTree = "<group>"; };
+		793160521A3199B400B628D9 /* PFInstallation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFInstallation.h; sourceTree = "<group>"; };
+		793160531A3199B400B628D9 /* PFInternalUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFInternalUtils.h; sourceTree = "<group>"; };
+		793160541A3199B400B628D9 /* PFJSONCacheItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFJSONCacheItem.h; sourceTree = "<group>"; };
+		793160551A3199B400B628D9 /* PFKeyValueCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFKeyValueCache.h; sourceTree = "<group>"; };
+		793160561A3199B400B628D9 /* PFKeyValueCacheEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFKeyValueCacheEntry.h; sourceTree = "<group>"; };
+		793160571A3199B400B628D9 /* PFKeyValueDiskCacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFKeyValueDiskCacheDelegate.h; sourceTree = "<group>"; };
+		793160581A3199B400B628D9 /* PFLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLoadingView.h; sourceTree = "<group>"; };
+		793160591A3199B400B628D9 /* PFLocalIdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLocalIdManager.h; sourceTree = "<group>"; };
+		7931605A1A3199B400B628D9 /* PFLocalIdManagerMapEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLocalIdManagerMapEntry.h; sourceTree = "<group>"; };
+		7931605B1A3199B400B628D9 /* PFLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLocationManager.h; sourceTree = "<group>"; };
+		7931605C1A3199B400B628D9 /* PFLogInButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLogInButton.h; sourceTree = "<group>"; };
+		7931605D1A3199B400B628D9 /* PFLogInFieldBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLogInFieldBackgroundView.h; sourceTree = "<group>"; };
+		7931605E1A3199B400B628D9 /* PFLogInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLogInView.h; sourceTree = "<group>"; };
+		7931605F1A3199B400B628D9 /* PFLogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLogInViewController.h; sourceTree = "<group>"; };
+		793160601A3199B400B628D9 /* PFMappedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMappedData.h; sourceTree = "<group>"; };
+		793160611A3199B400B628D9 /* PFMemoryMappedFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMemoryMappedFile.h; sourceTree = "<group>"; };
+		793160621A3199B400B628D9 /* PFMulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMulticastDelegate.h; sourceTree = "<group>"; };
+		793160631A3199B400B628D9 /* PFMultiCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMultiCommand.h; sourceTree = "<group>"; };
+		793160641A3199B400B628D9 /* PFMultipartPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMultipartPart.h; sourceTree = "<group>"; };
+		793160651A3199B400B628D9 /* PFMultipartPartStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMultipartPartStream.h; sourceTree = "<group>"; };
+		793160661A3199B400B628D9 /* PFMultipartRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFMultipartRequest.h; sourceTree = "<group>"; };
+		793160671A3199B400B628D9 /* PFNetworkCommandRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFNetworkCommandRunner.h; sourceTree = "<group>"; };
+		793160681A3199B400B628D9 /* PFNetworkingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFNetworkingUtils.h; sourceTree = "<group>"; };
+		793160691A3199B400B628D9 /* PFOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFOAuth.h; sourceTree = "<group>"; };
+		7931606A1A3199B400B628D9 /* PFOAuth1FlowDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFOAuth1FlowDialog.h; sourceTree = "<group>"; };
+		7931606B1A3199B400B628D9 /* PFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFObject.h; sourceTree = "<group>"; };
+		7931606C1A3199B400B628D9 /* PFPaymentTransactionObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFPaymentTransactionObserver.h; sourceTree = "<group>"; };
+		7931606D1A3199B400B628D9 /* PFProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFProduct.h; sourceTree = "<group>"; };
+		7931606E1A3199B400B628D9 /* PFProductsRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFProductsRequestHandler.h; sourceTree = "<group>"; };
+		7931606F1A3199B400B628D9 /* PFProductTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFProductTableViewController.h; sourceTree = "<group>"; };
+		793160701A3199B400B628D9 /* PFPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFPurchase.h; sourceTree = "<group>"; };
+		793160711A3199B400B628D9 /* PFPurchaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFPurchaseTableViewCell.h; sourceTree = "<group>"; };
+		793160721A3199B400B628D9 /* PFPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFPush.h; sourceTree = "<group>"; };
+		793160731A3199B400B628D9 /* PFQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFQuery.h; sourceTree = "<group>"; };
+		793160741A3199B400B628D9 /* PFQueryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFQueryTableViewController.h; sourceTree = "<group>"; };
+		793160751A3199B400B628D9 /* PFReceptionist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFReceptionist.h; sourceTree = "<group>"; };
+		793160761A3199B400B628D9 /* PFRelation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFRelation.h; sourceTree = "<group>"; };
+		793160771A3199B400B628D9 /* PFRelationOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFRelationOperation.h; sourceTree = "<group>"; };
+		793160781A3199B400B628D9 /* PFRemoveOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFRemoveOperation.h; sourceTree = "<group>"; };
+		793160791A3199B400B628D9 /* PFResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFResource.h; sourceTree = "<group>"; };
+		7931607A1A3199B400B628D9 /* PFRetryingCommandRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFRetryingCommandRunner.h; sourceTree = "<group>"; };
+		7931607B1A3199B400B628D9 /* PFRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFRole.h; sourceTree = "<group>"; };
+		7931607C1A3199B400B628D9 /* PFSetOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFSetOperation.h; sourceTree = "<group>"; };
+		7931607D1A3199B400B628D9 /* PFSignUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFSignUpView.h; sourceTree = "<group>"; };
+		7931607E1A3199B400B628D9 /* PFSignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFSignUpViewController.h; sourceTree = "<group>"; };
+		7931607F1A3199B400B628D9 /* PFSubclassing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFSubclassing.h; sourceTree = "<group>"; };
+		793160801A3199B400B628D9 /* PFTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTableViewCell.h; sourceTree = "<group>"; };
+		793160811A3199B400B628D9 /* PFTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTask.h; sourceTree = "<group>"; };
+		793160821A3199B400B628D9 /* PFTaskCompletionSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTaskCompletionSource.h; sourceTree = "<group>"; };
+		793160831A3199B400B628D9 /* PFTaskQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTaskQueue.h; sourceTree = "<group>"; };
+		793160841A3199B400B628D9 /* PFThreadFactoryBlockRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFThreadFactoryBlockRunner.h; sourceTree = "<group>"; };
+		793160851A3199B400B628D9 /* PFTwitterAuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTwitterAuthenticationProvider.h; sourceTree = "<group>"; };
+		793160861A3199B400B628D9 /* PFTwitterButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTwitterButton.h; sourceTree = "<group>"; };
+		793160871A3199B400B628D9 /* PFTwitterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFTwitterUtils.h; sourceTree = "<group>"; };
+		793160881A3199B400B628D9 /* PFUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFUser.h; sourceTree = "<group>"; };
+		793160891A3199B400B628D9 /* PFViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFViewUtils.h; sourceTree = "<group>"; };
+		7931608A1A3199B400B628D9 /* PiracyDetectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiracyDetectionVC.h; sourceTree = "<group>"; };
+		7931608B1A3199B400B628D9 /* RNCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		7931608C1A3199B400B628D9 /* RNCryptorEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		7931608D1A3199B400B628D9 /* RNDecryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		7931608E1A3199B400B628D9 /* RNEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		7931608F1A3199B400B628D9 /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
+		793160901A3199B400B628D9 /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
+		793160911A3199B400B628D9 /* RuntimeManipulationDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeManipulationDetailsVC.h; sourceTree = "<group>"; };
+		793160921A3199B400B628D9 /* RuntimeManipulationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeManipulationVC.h; sourceTree = "<group>"; };
+		793160931A3199B400B628D9 /* SecurityDecisionsViaUntrustedInputDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityDecisionsViaUntrustedInputDetailsVC.h; sourceTree = "<group>"; };
+		793160941A3199B400B628D9 /* SecurityDecisionViaUntrustedInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityDecisionViaUntrustedInputVC.h; sourceTree = "<group>"; };
+		793160951A3199B400B628D9 /* SensitiveInformationDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensitiveInformationDetailsVC.h; sourceTree = "<group>"; };
+		793160961A3199B400B628D9 /* SensitiveInformationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensitiveInformationVC.h; sourceTree = "<group>"; };
+		793160971A3199B400B628D9 /* SFAntiPiracy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAntiPiracy.h; sourceTree = "<group>"; };
+		793160981A3199B400B628D9 /* SideChannelDataLeakageDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideChannelDataLeakageDetailsVC.h; sourceTree = "<group>"; };
+		793160991A3199B400B628D9 /* SideChannelDataLeakageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideChannelDataLeakageVC.h; sourceTree = "<group>"; };
+		7931609A1A3199B400B628D9 /* SKPaymentTransactionObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKPaymentTransactionObserver.h; sourceTree = "<group>"; };
+		7931609B1A3199B400B628D9 /* SKProductsRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKProductsRequestDelegate.h; sourceTree = "<group>"; };
+		7931609C1A3199B400B628D9 /* SKRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKRequestDelegate.h; sourceTree = "<group>"; };
+		7931609D1A3199B400B628D9 /* SolutionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolutionsViewController.h; sourceTree = "<group>"; };
+		7931609E1A3199B400B628D9 /* SSLPinningVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLPinningVC.h; sourceTree = "<group>"; };
+		7931609F1A3199B400B628D9 /* TransportLayerProtectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportLayerProtectionVC.h; sourceTree = "<group>"; };
+		793160A01A3199B400B628D9 /* UIAlertViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAlertViewDelegate.h; sourceTree = "<group>"; };
+		793160A11A3199B400B628D9 /* UIApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIApplicationDelegate.h; sourceTree = "<group>"; };
+		793160A21A3199B400B628D9 /* UIScrollViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollViewDelegate.h; sourceTree = "<group>"; };
+		793160A31A3199B400B628D9 /* UITableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewDataSource.h; sourceTree = "<group>"; };
+		793160A41A3199B400B628D9 /* UITableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegate.h; sourceTree = "<group>"; };
+		793160A51A3199B400B628D9 /* UITextFieldDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldDelegate.h; sourceTree = "<group>"; };
+		793160A61A3199B400B628D9 /* UIViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		793160A71A3199B400B628D9 /* UIViewControllerContextTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerContextTransitioning.h; sourceTree = "<group>"; };
+		793160A81A3199B400B628D9 /* UIViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		793160A91A3199B400B628D9 /* UIViewControllerTransitionCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerTransitionCoordinator.h; sourceTree = "<group>"; };
+		793160AA1A3199B400B628D9 /* UIViewControllerTransitionCoordinatorContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerTransitionCoordinatorContext.h; sourceTree = "<group>"; };
+		793160AB1A3199B400B628D9 /* UIWebViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewDelegate.h; sourceTree = "<group>"; };
+		793160AC1A3199B400B628D9 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		793160AD1A3199B400B628D9 /* XXUnknownSuperclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXUnknownSuperclass.h; sourceTree = "<group>"; };
 		79C3663619A742580031F452 /* APSConnectionDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APSConnectionDelegate-Protocol.h"; sourceTree = "<group>"; };
 		79C3663719A742580031F452 /* BBBulletin-SBBulletinBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBBulletin-SBBulletinBanner.h"; sourceTree = "<group>"; };
 		79C3663819A742580031F452 /* BBBulletin-SBUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBBulletin-SBUtilities.h"; sourceTree = "<group>"; };
@@ -541,9 +714,191 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		793160001A3199B400B628D9 /* DamnVulnerableIOSApp.h */ = {
+			isa = PBXGroup;
+			children = (
+				793160011A3199B400B628D9 /* AppDelegate.h */,
+				793160021A3199B400B628D9 /* ApplicationPatchingDetailsVC.h */,
+				793160031A3199B400B628D9 /* ApplicationPatchingVC.h */,
+				793160041A3199B400B628D9 /* BrokenCryptographyDetailsVC.h */,
+				793160051A3199B400B628D9 /* BrokenCryptographyVC.h */,
+				793160061A3199B400B628D9 /* ClientSideInjectionDetailsVC.h */,
+				793160071A3199B400B628D9 /* ClientSideInjectionVC.h */,
+				793160081A3199B400B628D9 /* CLLocationManagerDelegate.h */,
+				793160091A3199B400B628D9 /* DamnVulnerableAppUtilities.h */,
+				7931600A1A3199B400B628D9 /* DamnVulnerableIOSApp-Structs.h */,
+				7931600B1A3199B400B628D9 /* DamnVulnerableIOSApp.h */,
+				7931600C1A3199B400B628D9 /* ECPercentDrivenInteractiveTransition.h */,
+				7931600D1A3199B400B628D9 /* ECSlidingAnimationController.h */,
+				7931600E1A3199B400B628D9 /* ECSlidingInteractiveTransition.h */,
+				7931600F1A3199B400B628D9 /* ECSlidingSegue.h */,
+				793160101A3199B400B628D9 /* ECSlidingViewController.h */,
+				793160111A3199B400B628D9 /* FBAppCall.h */,
+				793160121A3199B400B628D9 /* FBRequest.h */,
+				793160131A3199B400B628D9 /* FBSession.h */,
+				793160141A3199B400B628D9 /* FBSessionTokenCaching.h */,
+				793160151A3199B400B628D9 /* FBSessionTokenCachingStrategy.h */,
+				793160161A3199B400B628D9 /* GenericWebViewVC.h */,
+				793160171A3199B400B628D9 /* HomeViewController.h */,
+				793160181A3199B400B628D9 /* InsecureDataStorageVC.h */,
+				793160191A3199B400B628D9 /* InsecureDataStorageVulnVC.h */,
+				7931601A1A3199B400B628D9 /* JailbreakDetectionVC.h */,
+				7931601B1A3199B400B628D9 /* LearnViewController.h */,
+				7931601C1A3199B400B628D9 /* MenuViewController.h */,
+				7931601D1A3199B400B628D9 /* Model.h */,
+				7931601E1A3199B400B628D9 /* NSCopying.h */,
+				7931601F1A3199B400B628D9 /* NSObject.h */,
+				793160201A3199B400B628D9 /* NSStreamDelegate.h */,
+				793160211A3199B400B628D9 /* NSURLConnectionDelegate.h */,
+				793160221A3199B400B628D9 /* Parse.h */,
+				793160231A3199B400B628D9 /* PDKeychainBindings.h */,
+				793160241A3199B400B628D9 /* PDKeychainBindingsController.h */,
+				793160251A3199B400B628D9 /* PF_AFHTTPClient.h */,
+				793160261A3199B400B628D9 /* PF_AFHTTPRequestOperation.h */,
+				793160271A3199B400B628D9 /* PF_AFJSONRequestOperation.h */,
+				793160281A3199B400B628D9 /* PF_AFMultipartFormData.h */,
+				793160291A3199B400B628D9 /* PF_AFNetworkActivityIndicatorManager.h */,
+				7931602A1A3199B400B628D9 /* PF_AFQueryStringComponent.h */,
+				7931602B1A3199B400B628D9 /* PF_AFURLConnectionOperation.h */,
+				7931602C1A3199B400B628D9 /* PF_EGORefreshTableHeaderDelegate.h */,
+				7931602D1A3199B400B628D9 /* PF_EGORefreshTableHeaderView.h */,
+				7931602E1A3199B400B628D9 /* PF_MBProgressHUD.h */,
+				7931602F1A3199B400B628D9 /* PF_MBRoundProgressView.h */,
+				793160301A3199B400B628D9 /* PF_Twitter.h */,
+				793160311A3199B400B628D9 /* PFACL.h */,
+				793160321A3199B400B628D9 /* PFAddOperation.h */,
+				793160331A3199B400B628D9 /* PFAddUniqueOperation.h */,
+				793160341A3199B400B628D9 /* PFAlertInputView.h */,
+				793160351A3199B400B628D9 /* PFAnalytics.h */,
+				793160361A3199B400B628D9 /* PFAnonymousAuthenticationProvider.h */,
+				793160371A3199B400B628D9 /* PFAnonymousUtils.h */,
+				793160381A3199B400B628D9 /* PFAuthenticationProvider.h */,
+				793160391A3199B400B628D9 /* PFBlockRetryer.h */,
+				7931603A1A3199B400B628D9 /* PFCachedCommandRunner.h */,
+				7931603B1A3199B400B628D9 /* PFCloud.h */,
+				7931603C1A3199B400B628D9 /* PFCommand.h */,
+				7931603D1A3199B400B628D9 /* PFCommandCache.h */,
+				7931603E1A3199B400B628D9 /* PFCommandCacheTestHelper.h */,
+				7931603F1A3199B400B628D9 /* PFCommandResult.h */,
+				793160401A3199B400B628D9 /* PFDeleteOperation.h */,
+				793160411A3199B400B628D9 /* PFFacebookAuthenticationProvider.h */,
+				793160421A3199B400B628D9 /* PFFacebookButton.h */,
+				793160431A3199B400B628D9 /* PFFacebookTokenCachingStrategy.h */,
+				793160441A3199B400B628D9 /* PFFacebookUtils.h */,
+				793160451A3199B400B628D9 /* PFFieldOperation.h */,
+				793160461A3199B400B628D9 /* PFFile.h */,
+				793160471A3199B400B628D9 /* PFGeoPoint.h */,
+				793160481A3199B400B628D9 /* PFHTTPChunkedResponseBody.h */,
+				793160491A3199B400B628D9 /* PFHTTPCommand.h */,
+				7931604A1A3199B400B628D9 /* PFHTTPCommandDelegate.h */,
+				7931604B1A3199B400B628D9 /* PFHTTPHeaders.h */,
+				7931604C1A3199B400B628D9 /* PFHTTPRequest.h */,
+				7931604D1A3199B400B628D9 /* PFHTTPResponse.h */,
+				7931604E1A3199B400B628D9 /* PFHTTPResponseBody.h */,
+				7931604F1A3199B400B628D9 /* PFImageCache.h */,
+				793160501A3199B400B628D9 /* PFImageView.h */,
+				793160511A3199B400B628D9 /* PFIncrementOperation.h */,
+				793160521A3199B400B628D9 /* PFInstallation.h */,
+				793160531A3199B400B628D9 /* PFInternalUtils.h */,
+				793160541A3199B400B628D9 /* PFJSONCacheItem.h */,
+				793160551A3199B400B628D9 /* PFKeyValueCache.h */,
+				793160561A3199B400B628D9 /* PFKeyValueCacheEntry.h */,
+				793160571A3199B400B628D9 /* PFKeyValueDiskCacheDelegate.h */,
+				793160581A3199B400B628D9 /* PFLoadingView.h */,
+				793160591A3199B400B628D9 /* PFLocalIdManager.h */,
+				7931605A1A3199B400B628D9 /* PFLocalIdManagerMapEntry.h */,
+				7931605B1A3199B400B628D9 /* PFLocationManager.h */,
+				7931605C1A3199B400B628D9 /* PFLogInButton.h */,
+				7931605D1A3199B400B628D9 /* PFLogInFieldBackgroundView.h */,
+				7931605E1A3199B400B628D9 /* PFLogInView.h */,
+				7931605F1A3199B400B628D9 /* PFLogInViewController.h */,
+				793160601A3199B400B628D9 /* PFMappedData.h */,
+				793160611A3199B400B628D9 /* PFMemoryMappedFile.h */,
+				793160621A3199B400B628D9 /* PFMulticastDelegate.h */,
+				793160631A3199B400B628D9 /* PFMultiCommand.h */,
+				793160641A3199B400B628D9 /* PFMultipartPart.h */,
+				793160651A3199B400B628D9 /* PFMultipartPartStream.h */,
+				793160661A3199B400B628D9 /* PFMultipartRequest.h */,
+				793160671A3199B400B628D9 /* PFNetworkCommandRunner.h */,
+				793160681A3199B400B628D9 /* PFNetworkingUtils.h */,
+				793160691A3199B400B628D9 /* PFOAuth.h */,
+				7931606A1A3199B400B628D9 /* PFOAuth1FlowDialog.h */,
+				7931606B1A3199B400B628D9 /* PFObject.h */,
+				7931606C1A3199B400B628D9 /* PFPaymentTransactionObserver.h */,
+				7931606D1A3199B400B628D9 /* PFProduct.h */,
+				7931606E1A3199B400B628D9 /* PFProductsRequestHandler.h */,
+				7931606F1A3199B400B628D9 /* PFProductTableViewController.h */,
+				793160701A3199B400B628D9 /* PFPurchase.h */,
+				793160711A3199B400B628D9 /* PFPurchaseTableViewCell.h */,
+				793160721A3199B400B628D9 /* PFPush.h */,
+				793160731A3199B400B628D9 /* PFQuery.h */,
+				793160741A3199B400B628D9 /* PFQueryTableViewController.h */,
+				793160751A3199B400B628D9 /* PFReceptionist.h */,
+				793160761A3199B400B628D9 /* PFRelation.h */,
+				793160771A3199B400B628D9 /* PFRelationOperation.h */,
+				793160781A3199B400B628D9 /* PFRemoveOperation.h */,
+				793160791A3199B400B628D9 /* PFResource.h */,
+				7931607A1A3199B400B628D9 /* PFRetryingCommandRunner.h */,
+				7931607B1A3199B400B628D9 /* PFRole.h */,
+				7931607C1A3199B400B628D9 /* PFSetOperation.h */,
+				7931607D1A3199B400B628D9 /* PFSignUpView.h */,
+				7931607E1A3199B400B628D9 /* PFSignUpViewController.h */,
+				7931607F1A3199B400B628D9 /* PFSubclassing.h */,
+				793160801A3199B400B628D9 /* PFTableViewCell.h */,
+				793160811A3199B400B628D9 /* PFTask.h */,
+				793160821A3199B400B628D9 /* PFTaskCompletionSource.h */,
+				793160831A3199B400B628D9 /* PFTaskQueue.h */,
+				793160841A3199B400B628D9 /* PFThreadFactoryBlockRunner.h */,
+				793160851A3199B400B628D9 /* PFTwitterAuthenticationProvider.h */,
+				793160861A3199B400B628D9 /* PFTwitterButton.h */,
+				793160871A3199B400B628D9 /* PFTwitterUtils.h */,
+				793160881A3199B400B628D9 /* PFUser.h */,
+				793160891A3199B400B628D9 /* PFViewUtils.h */,
+				7931608A1A3199B400B628D9 /* PiracyDetectionVC.h */,
+				7931608B1A3199B400B628D9 /* RNCryptor.h */,
+				7931608C1A3199B400B628D9 /* RNCryptorEngine.h */,
+				7931608D1A3199B400B628D9 /* RNDecryptor.h */,
+				7931608E1A3199B400B628D9 /* RNEncryptor.h */,
+				7931608F1A3199B400B628D9 /* RNOpenSSLDecryptor.h */,
+				793160901A3199B400B628D9 /* RNOpenSSLEncryptor.h */,
+				793160911A3199B400B628D9 /* RuntimeManipulationDetailsVC.h */,
+				793160921A3199B400B628D9 /* RuntimeManipulationVC.h */,
+				793160931A3199B400B628D9 /* SecurityDecisionsViaUntrustedInputDetailsVC.h */,
+				793160941A3199B400B628D9 /* SecurityDecisionViaUntrustedInputVC.h */,
+				793160951A3199B400B628D9 /* SensitiveInformationDetailsVC.h */,
+				793160961A3199B400B628D9 /* SensitiveInformationVC.h */,
+				793160971A3199B400B628D9 /* SFAntiPiracy.h */,
+				793160981A3199B400B628D9 /* SideChannelDataLeakageDetailsVC.h */,
+				793160991A3199B400B628D9 /* SideChannelDataLeakageVC.h */,
+				7931609A1A3199B400B628D9 /* SKPaymentTransactionObserver.h */,
+				7931609B1A3199B400B628D9 /* SKProductsRequestDelegate.h */,
+				7931609C1A3199B400B628D9 /* SKRequestDelegate.h */,
+				7931609D1A3199B400B628D9 /* SolutionsViewController.h */,
+				7931609E1A3199B400B628D9 /* SSLPinningVC.h */,
+				7931609F1A3199B400B628D9 /* TransportLayerProtectionVC.h */,
+				793160A01A3199B400B628D9 /* UIAlertViewDelegate.h */,
+				793160A11A3199B400B628D9 /* UIApplicationDelegate.h */,
+				793160A21A3199B400B628D9 /* UIScrollViewDelegate.h */,
+				793160A31A3199B400B628D9 /* UITableViewDataSource.h */,
+				793160A41A3199B400B628D9 /* UITableViewDelegate.h */,
+				793160A51A3199B400B628D9 /* UITextFieldDelegate.h */,
+				793160A61A3199B400B628D9 /* UIViewControllerAnimatedTransitioning.h */,
+				793160A71A3199B400B628D9 /* UIViewControllerContextTransitioning.h */,
+				793160A81A3199B400B628D9 /* UIViewControllerInteractiveTransitioning.h */,
+				793160A91A3199B400B628D9 /* UIViewControllerTransitionCoordinator.h */,
+				793160AA1A3199B400B628D9 /* UIViewControllerTransitionCoordinatorContext.h */,
+				793160AB1A3199B400B628D9 /* UIWebViewDelegate.h */,
+				793160AC1A3199B400B628D9 /* User.h */,
+				793160AD1A3199B400B628D9 /* XXUnknownSuperclass.h */,
+			);
+			name = DamnVulnerableIOSApp.h;
+			path = ../DamnVulnerableIOSApp.h;
+			sourceTree = "<group>";
+		};
 		794767EA19A3411000251844 = {
 			isa = PBXGroup;
 			children = (
+				793160001A3199B400B628D9 /* DamnVulnerableIOSApp.h */,
 				79C3663519A742580031F452 /* SpringBoard.h */,
 			);
 			sourceTree = "<group>";
